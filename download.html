@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تنزيل إضافة تكملة مناطق الشحن</title>
+<style>
+  body { font-family: system-ui, "Segoe UI", Tahoma, sans-serif; margin: 0; padding: 24px; background: #f6f8fa; color: #1f2328; }
+  .card { max-width: 520px; margin: 40px auto; background: #fff; border: 1px solid #d1d9e0; border-radius: 12px; padding: 28px; text-align: center; }
+  h1 { font-size: 20px; margin: 0 0 8px; }
+  p { font-size: 14px; color: #59636e; line-height: 1.7; }
+  a.btn { display: inline-block; margin-top: 16px; background: #1a7f37; color: #fff; text-decoration: none; font-size: 16px; font-weight: 600; padding: 12px 28px; border-radius: 8px; }
+  .note { margin-top: 18px; font-size: 13px; color: #59636e; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>إضافة تكملة مناطق الشحن</h1>
+    <p>اضغط الزر لتنزيل ملف الإضافة <b>manifest.xml</b> على جهازك.<br>بعدها افتح المصنف في Excel على الويب: Insert ← Add-ins ← Upload My Add-in واختار الملف.</p>
+    <a class="btn" id="dl" href="manifest.xml" download="manifest.xml">تنزيل manifest.xml</a>
+    <p class="note">إذا لم يبدأ التنزيل تلقائيًا اضغط الزر. في بعض المتصفحات قد تجد الملف في قائمة التنزيلات أو مجلد Downloads.</p>
+  </div>
+<script>
+  window.addEventListener("load", function () {
+    setTimeout(function () { document.getElementById("dl").click(); }, 400);
+  });
+</script>
+</body>
+</html>
