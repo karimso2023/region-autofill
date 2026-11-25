@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           xsi:type="TaskPaneApp">
+  <Id>d5fc6c0e-d62d-4363-bd5b-80212e2c48e9</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Instinct</ProviderName>
+  <DefaultLocale>ar-EG</DefaultLocale>
+  <DisplayName DefaultValue="تكملة مناطق الشحن"/>
+  <Description DefaultValue="تكمل اسم المنطقه تلقائيًا من المحافظة والعنوان حسب قائمة الأقاليم، مع ملاحظات مراجعة للحالات الغامضة. لا يغيّر أي قيمة مكتوبة يدويًا."/>
+  <IconUrl DefaultValue="https://github.com/user-attachments/assets/a8b4e0a4-3ac7-4376-9407-6d1e5d611d9a"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/user-attachments/assets/a8b4e0a4-3ac7-4376-9407-6d1e5d611d9a"/>
+  <SupportUrl DefaultValue="https://github.com/karimso2023/region-autofill"/>
+  <AppDomains>
+    <AppDomain>karimso2023.github.io</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://karimso2023.github.io/region-autofill/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
