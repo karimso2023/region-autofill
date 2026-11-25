@@ -10,8 +10,8 @@
   <DefaultLocale>ar-EG</DefaultLocale>
   <DisplayName DefaultValue="تكملة مناطق الشحن"/>
   <Description DefaultValue="تكمل اسم المنطقه تلقائيًا من المحافظة والعنوان حسب قائمة الأقاليم، مع ملاحظات مراجعة للحالات الغامضة. لا يغيّر أي قيمة مكتوبة يدويًا."/>
-  <IconUrl DefaultValue="https://github.com/user-attachments/assets/a8b4e0a4-3ac7-4376-9407-6d1e5d611d9a"/>
-  <HighResolutionIconUrl DefaultValue="https://github.com/user-attachments/assets/a8b4e0a4-3ac7-4376-9407-6d1e5d611d9a"/>
+  <IconUrl DefaultValue="https://github.com/karimso2023/region-autofill/releases/download/v1.0.0/icon.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/karimso2023/region-autofill/releases/download/v1.0.0/icon.png"/>
   <SupportUrl DefaultValue="https://github.com/karimso2023/region-autofill"/>
   <AppDomains>
     <AppDomain>karimso2023.github.io</AppDomain>
