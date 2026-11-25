@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تكملة مناطق الشحن</title>
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+<script src="logic.js"></script>
+<style>
+  body { font-family: Tahoma, Arial, sans-serif; margin: 12px; color: #1a1a1a; }
+  h1 { font-size: 15px; margin: 0 0 8px; }
+  #status { font-size: 13px; padding: 8px; border-radius: 6px; background: #f3f3f3; margin-bottom: 10px; line-height: 1.6; }
+  #status.ok { background: #e6f4ea; }
+  #status.warn { background: #fef3e0; }
+  button { font-size: 13px; padding: 8px 12px; margin: 4px 0; width: 100%; cursor: pointer; border: 1px solid #bbb; border-radius: 6px; background: #fff; }
+  button.primary { background: #1a6b3c; color: #fff; border-color: #1a6b3c; }
+  #log { font-size: 12px; margin-top: 10px; max-height: 260px; overflow-y: auto; border-top: 1px solid #ddd; padding-top: 6px; }
+  #log div { padding: 2px 0; border-bottom: 1px dotted #eee; }
+</style>
+</head>
+<body>
+<h1>تكملة مناطق الشحن</h1>
+<div id="status">جاري التحميل…</div>
+<button id="fillAll" class="primary">تعبئة كل الصفوف في الشيت الحالي</button>
+<button id="cleanup">تجهيز نسخة الرفع لشركة الشحن (حذف عمودَي الملاحظة والعلامة)</button>
+<div id="log"></div>
+<script src="taskpane.js"></script>
+</body>
+</html>
